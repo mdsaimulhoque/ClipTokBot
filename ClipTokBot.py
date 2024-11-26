@@ -112,8 +112,12 @@ def download_tiktok_video(video_url, save_path='tiktok_videos'):
 # /start command handler
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
-        "👋 Welcome to the TikTok Downloader Bot!\n\n"
-        "📌 Send me a TikTok video URL, and I'll download the video for you!"
+        "👋 Welcome to the TikTok Video Downloader Bot!\n\n"
+        "📌 Send me a TikTok video URL, and I'll download the video for you!\n\n"
+        "💡 Developed by: Md Saimul Hoque\n"
+        "🌐 Facebook: [Saimul Hoque](https://facebook.com/saimulhoque)\n"
+        "📧 Contact: saimulhoque.bd@gmail.com\n\n"
+        "🔗 Enjoy downloading your favorite TikTok videos!"
     )
 
 
